@@ -42,7 +42,12 @@ const Greeting = styled.div`
 
 const astroFloat = keyframes`
   50% {
-    transform: translateY(-5px) rotate(-10deg);
+    transform: translateY(-10px) rotate(-10deg);
+  }
+`
+const planetFloat = keyframes`
+  50% {
+    transform: translateY(-10px);
   }
 `
 
@@ -58,7 +63,7 @@ const Planet = styled.img`
   width: 25%;
   height: auto;
   z-index: 50;
-  ${'' /* animation: ${float} 2s ease-in-out infinite; */}
+  animation: ${planetFloat} 3s ease-in-out 0.7s infinite;
 `
 
 // const Moon = styled.img`
@@ -69,7 +74,8 @@ const Astronaut = styled.img`
   width: 50%;
   transform: rotate(-10deg);
   z-index: 100;
-  animation: ${astroFloat} 2s ease-in-out infinite;
+  animation: ${astroFloat} 3s ease-in-out infinite;
+  opacity: 0.75;
 `
 
 const stackColors = color => {
@@ -93,8 +99,9 @@ export default () => (
           <span css={stackColors('#61DAFB')}> React </span>
         </p>
         <p>
-          Having a background, I am enabled as a creative thinker have an
-          immense passion when it comes to the subtleties of design.
+          Having a background in music, I am enabled as a creative thinker have
+          an immense passion (and a ton of ideas) when it comes to the world of
+          design.
         </p>
         <Button>
           <Link href='/case-studies'>See what I've Made</Link>
