@@ -1,7 +1,10 @@
+/** @jsx jsx */
 import React from 'react'
 import styled from '@emotion/styled'
+import { keyframes, jsx } from '@emotion/core'
 import { colors } from '../utils/theme'
 import Button from './Button'
+import { Link } from 'react-router-dom'
 
 const Intro = styled.div`
   position: absolute;
@@ -28,13 +31,55 @@ const Greeting = styled.div`
   p {
     color: ${colors.text};
   }
+
+  div > a {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+`
+
+/* ARTWORK COMPONENTS */
+
+const astroFloat = keyframes`
+  50% {
+    transform: translateY(-5px) rotate(-10deg);
+  }
 `
 
 const Artwork = styled.div`
   position: relative;
-  display: block;
-  flex-basis: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50vw;
 `
+
+const Planet = styled.img`
+  width: 25%;
+  height: auto;
+  z-index: 50;
+  ${'' /* animation: ${float} 2s ease-in-out infinite; */}
+`
+
+// const Moon = styled.img`
+//   z-index: 25;
+// `
+
+const Astronaut = styled.img`
+  width: 50%;
+  transform: rotate(-10deg);
+  z-index: 100;
+  animation: ${astroFloat} 2s ease-in-out infinite;
+`
+
+const stackColors = color => {
+  // for the stack i use (ruby & react)
+  return {
+    color: color,
+    fontStyle: 'italic',
+    fontWeight: '500'
+  }
+}
 
 export default () => (
   <section>
@@ -42,18 +87,23 @@ export default () => (
       <Greeting>
         <h1>Hi There, I'm Moniet, a Full Stack Developer.</h1>
         <p>
-          I build applications super quick with the power of Ruby on Rails and
-          supercharge the front end with React <mark></mark>
+          I build applications super quick with the power of
+          <span css={stackColors(colors.primary)}> Ruby on Rails </span> and
+          supercharge the front end with
+          <span css={stackColors('#61DAFB')}> React </span>
         </p>
         <p>
           Having a background, I am enabled as a creative thinker have an
           immense passion when it comes to the subtleties of design.
         </p>
         <Button>
-          <a href='/case-studies'>See what I've Made</a>
+          <Link href='/case-studies'>See what I've Made</Link>
         </Button>
       </Greeting>
-      <Artwork></Artwork>
+      <Artwork>
+        <Planet src={require('../assets/img/planet.svg')} />
+        <Astronaut src={require('../assets/img/astronaut.svg')} />
+      </Artwork>
     </Intro>
   </section>
 )

@@ -12,6 +12,7 @@ const Nav = styled.nav`
   justify-content: space-between;
   padding: 1.5em 3em;
   width: 100vw;
+  z-index: 2000;
 `
 
 const List = styled.ul`
@@ -22,6 +23,9 @@ const List = styled.ul`
 
 const ListItem = styled.li`
   margin-right: 1.5em;
+  &:last-of-type {
+    margin-right: 0;
+  }
 
   a {
     font-size: 1rem;
@@ -30,10 +34,6 @@ const ListItem = styled.li`
     color: ${colors.text};
     transition: color 150ms ease-in-out, border-color 150ms ease-in-out;
     padding-bottom: 4px;
-
-    &:last-of-type {
-      margin-right: 0;
-    }
 
     &:hover {
       color: ${colors.primary};

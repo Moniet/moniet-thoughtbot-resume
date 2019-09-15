@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 16px;
-}
-
 body {
   margin: 0;
   font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -18,6 +14,28 @@ body {
   font-size: 100%;
   font-variant-ligatures: common-ligatures;
   font-variant-numeric: proportional-nums;
+  line-height: 1.2;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.625em
+}
+
+h2 {
+  font-size: 1.7em
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem
+}
+
+p {
+  margin: 0 0 1.5rem;
+  font-size: 1.2em;
   line-height: 1.7;
 }
 

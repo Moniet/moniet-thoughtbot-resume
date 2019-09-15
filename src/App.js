@@ -7,12 +7,12 @@ import Landing from './components/Landing'
 
 function App() {
   return (
-    <div className='App'>
-      <BrowserRouter>
+    <BrowserRouter>
+      <main>
         <Nav />
         <Route path='/' component={Landing} />
-      </BrowserRouter>
-    </div>
+      </main>
+    </BrowserRouter>
   )
 }
 

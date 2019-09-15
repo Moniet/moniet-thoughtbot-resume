@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { colors } from '../utils/theme'
 
 const Button = styled.div`
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   background-color: ${colors.primary};
