@@ -13,6 +13,7 @@ body {
   font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-kerning: normal;
   font-kerning: normal;
   font-size: 100%;
   font-variant-ligatures: common-ligatures;

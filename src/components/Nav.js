@@ -4,12 +4,13 @@ import { ClassNames } from '@emotion/core'
 import { colors } from '../utils/theme'
 import { Router, NavLink } from 'react-router-dom'
 import Logo from './Logo'
+import Button from './Button'
 
 const Nav = styled.nav`
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 2em;
+  padding: 1.5em 3em;
   width: 100vw;
 `
 
@@ -20,14 +21,19 @@ const List = styled.ul`
 `
 
 const ListItem = styled.li`
-  margin-left: 2em;
+  margin-right: 1.5em;
 
   a {
     font-size: 1rem;
     font-weight: 400;
+    letter-spacing: -0.25px;
     color: ${colors.text};
     transition: color 150ms ease-in-out, border-color 150ms ease-in-out;
     padding-bottom: 4px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
 
     &:hover {
       color: ${colors.primary};
@@ -47,6 +53,11 @@ export default () => {
         </ListItem>
         <ListItem>
           <NavLink to='/case-studies'>Case Studies</NavLink>
+        </ListItem>
+        <ListItem>
+          <Button>
+            <a href='mailto:moniet.sawhney@gmail.com'>Contact Me</a>
+          </Button>
         </ListItem>
       </List>
     </Nav>
