@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Calibre";
+    src: url(https://thoughtbot.com/assets/CalibreWeb-Light-4d46076cbbc0be2b2e72ea4331a283a8109c27089e9c38609b3ddf06d9920a0f.woff2) format("woff2"), url(//thoughtbot.com/assets/CalibreWeb-Light-a34fae9dcd1f909cb5ba364efdab63b59a89e7ccaf41590abbb5bdf7c7d6dd1f.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(https://thoughtbot.com/assets/CalibreWeb-LightItalic-1b6bff03eea65dbdc795ef496d02668985e86dbcf05e2e51f6cb9431f1122a63.woff2) format("woff2"), url(//thoughtbot.com/assets/CalibreWeb-LightItalic-01531a1aa68b8b905af7119b09236d39edb679e5b55bb046d39028e22fec31b9.woff) format("woff");
+    font-display: swap;
+    font-style: italic;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(https://thoughtbot.com/assets/CalibreWeb-Regular-da9622e19b7a5a81a90396acb72684272ff5505f3ceb94869d7f6a400763b577.woff2) format("woff2"), url(https://thoughtbot.com/assets/CalibreWeb-Regular-6ee4f607107d0d8b90b77b7a8c3b43e55c51788e4f61bdd773d0bbe0680e7cfe.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(https://thoughtbot.com/assets/CalibreWeb-RegularItalic-a50c7db4d93fd3a45c0e45bf0ada656ebbfc87efde88220adb8db085d98bf030.woff2) format("woff2"), url(https://thoughtbot.com/assets/CalibreWeb-RegularItalic-62e6f00db7393a4e11423e9df3e5d6e1eabcca2f6ebf2c2bb6e40cfd1fc19f07.woff) format("woff");
+    font-display: swap;
+    font-style: italic;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(https://thoughtbot.com/assets/CalibreWeb-Medium-20cc387b2497e754873a7ca22c565b2c73a38ae2a36a277729b51c5f1577c783.woff2) format("woff2"), url(https://thoughtbot.com/assets/CalibreWeb-Medium-c55cc02cedc5cfd3e763888977cd631f7f28cd475470a4f4e282971cf5c2883e.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(https://thoughtbot.com/assets/CalibreWeb-MediumItalic-929af6369150b4ba087df50695b5705a031736b875eed8f3a7261dcce6d255f6.woff2) format("woff2"), url(https://thoughtbot.com/assets/CalibreWeb-MediumItalic-f866b932a02dfaf42769acb0d7eed6f794a19878035548d24cb34f424022da85.woff) format("woff");
+    font-display: swap;
+    font-style: italic;
+    font-weight: 500
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(https://thoughtbot.com/assets/CalibreWeb-Semibold-613b093e772ee64109066928410c93b6a5f9d9f175323bda813e557a93119686.woff2) format("woff2"), url(https://thoughtbot.com/assets/CalibreWeb-Semibold-33497627fe09490a7dc6c8bc2744fad440f3f812238240a052f1ce41abc59df1.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 600
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(https://thoughtbot.com/assets/CalibreWeb-Bold-a4a45f8bf97519836a8a5c0ca3982986b7a2b6b76f350aa27f632f52683d76d0.woff2) format("woff2"), url(https://thoughtbot.com/assets/CalibreWeb-Bold-e2d79ce461b07a7166b116a52b4f2ce451cb2acdb2dff0e56d1da2ce31ea6fd5.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(https://thoughtbot.com/assets/CalibreWeb-BoldItalic-a1c69cc96b0d1689906d66673d0b640d46837fa44647fc5e11de20e6bf296af6.woff2) format("woff2"), url(https://thoughtbot.com/assets/CalibreWeb-BoldItalic-8994dd5303fbd580ba1497caa4e38683f97ce19e3ddc0b2f0c64a15d28278e43.woff) format("woff");
+    font-display: swap;
+    font-style: italic;
+    font-weight: 700
+}
+
+@font-face {
+    font-family: "Tiempos";
+    src: url(https://thoughtbot.com/assets/TiemposTextWeb-Regular-f6cc3a25d19eafab1c6951c737a9fff55843facb697154fbf8a94d1eb7be8cf3.woff2) format("woff2"), url(https://thoughtbot.com/assets/TiemposTextWeb-Regular-0dbc2d9a7c60fc7b3b2bdd93d3dd5b725f24bc9c9f4b39369e34e5f07a4c16ee.woff) format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Tiempos";
+    src: url(https://thoughtbot.com/assets/TiemposTextWeb-RegularItalic-752c343039c318da570c213b872f8b3ec8f5482ce569866e98bf3fde7623a3c3.woff2) format("woff2"), url(https://thoughtbot.com/assets/TiemposTextWeb-RegularItalic-2e86d1b987e5d0f2b717560f5dc26f2f5534f11c225e49552f2bb15b1ae13e5f.woff) format("woff");
+    font-display: swap;
+    font-style: italic;
+    font-weight: 400
+}
