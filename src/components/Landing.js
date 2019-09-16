@@ -88,29 +88,31 @@ const stackColors = color => {
 }
 
 export default () => (
-  <section>
-    <Intro>
-      <Greeting>
-        <h1>Hi There, I'm Moniet, a Full Stack Developer.</h1>
-        <p>
-          I build applications super quick with the power of
-          <span css={stackColors(colors.primary)}> Ruby on Rails </span> and
-          supercharge the front end with
-          <span css={stackColors('#61DAFB')}> React </span>
-        </p>
-        <p>
-          Having a background in music, I am enabled as a creative thinker have
-          an immense passion (and a ton of ideas) when it comes to the world of
-          design.
-        </p>
-        <Button>
-          <Link href='/case-studies'>See what I've Made</Link>
-        </Button>
-      </Greeting>
-      <Artwork>
-        <Planet src={require('../assets/img/planet.svg')} />
-        <Astronaut src={require('../assets/img/astronaut.svg')} />
-      </Artwork>
-    </Intro>
-  </section>
+  <>
+    <section>
+      <Intro>
+        <Greeting>
+          <h1>Hi There, I'm Moniet, a Full Stack Developer.</h1>
+          <p>
+            I build applications super quick with the power of
+            <span css={stackColors(colors.primary)}> Ruby on Rails </span> and
+            supercharge the front end with
+            <span css={stackColors('#61DAFB')}> React </span>
+          </p>
+          <p>
+            Having a background in music, I am enabled as a creative thinker
+            have an immense passion (and a ton of ideas) when it comes to the
+            world of design.
+          </p>
+          <Button>
+            <Link href='/case-studies'>See what I've Made</Link>
+          </Button>
+        </Greeting>
+        <Artwork>
+          <Planet src={require('../assets/img/planet.svg')} />
+          <Astronaut src={require('../assets/img/astronaut.svg')} />
+        </Artwork>
+      </Intro>
+    </section>
+  </>
 )
