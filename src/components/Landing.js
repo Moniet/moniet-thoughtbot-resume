@@ -100,9 +100,8 @@ export default () => (
             <span css={stackColors('#61DAFB')}> React </span>
           </p>
           <p>
-            Having a background in music, I am enabled as a creative thinker
-            have an immense passion (and a ton of ideas) when it comes to the
-            world of design.
+            Having a background in music, I am enabled as a creative thinker and
+            have an immense passion when it comes to the world of design.
           </p>
           <Button>
             <Link href='/case-studies'>See what I've Made</Link>

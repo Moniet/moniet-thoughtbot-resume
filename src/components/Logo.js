@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { mq } from '../utils/responsiveUtils'
+import { maxW, minW } from '../utils/responsiveUtils'
 import { colors } from '../utils/theme'
 import { Link } from 'react-router-dom'
 
@@ -9,8 +9,9 @@ const Container = styled.div``
 const SmallLogo = styled.div`
   display: none;
 
-  @media (max-width: 890px) {
+  ${maxW[2]} {
     display: block;
+    z-index: 100;
   }
 
   svg {
@@ -22,8 +23,9 @@ const LargeLogo = styled.div`
   display: block;
   width: 160px;
   height: 35px;
+  z-index: 100;
 
-  @media (max-width: 890px) {
+  ${maxW[2]} {
     display: none;
   }
 

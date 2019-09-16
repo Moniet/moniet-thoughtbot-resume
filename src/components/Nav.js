@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from '@emotion/styled'
 import { ClassNames } from '@emotion/core'
 import { colors } from '../utils/theme'
 import { Router, NavLink } from 'react-router-dom'
 import Logo from './Logo'
 import Button from './Button'
+import { minW, maxW } from '../utils/responsiveUtils'
 
 const Nav = styled.nav`
   position: relative;
@@ -13,16 +14,40 @@ const Nav = styled.nav`
   padding: 1.5em 3em;
   width: 100vw;
   z-index: 2000;
+
+  ${maxW[2]} {
+    background: white;
+  }
 `
 
 const List = styled.ul`
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 300ms ease-in-out, opacity 400ms ease-in-out;
+
+  ${maxW[2]} {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
+    transform: ${props =>
+      props.menuToggled ? 'translateY(50%)' : 'translateY(-100%)'};
+    opacity: ${props => (props.menuToggled ? 1 : 0)};
+  }
 `
 
 const ListItem = styled.li`
   margin-right: 1.5em;
+  ${maxW[2]} {
+    margin-bottom: 1.5em;
+  }
+
   &:last-of-type {
     margin-right: 0;
   }
@@ -43,11 +68,33 @@ const ListItem = styled.li`
   }
 `
 
+const Hamburger = styled.div`
+  width: 2em;
+  height: auto;
+  align-self: center;
+  display: block;
+  z-index: 10;
+
+  ${minW[2]} {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+`
+
 export default () => {
+  const [menuToggled, toggleMenu] = useState(false)
+
   return (
     <Nav>
+      <Hamburger onClick={() => toggleMenu(!menuToggled)}>
+        <img src={require('../assets/img/icons/menu.svg')} alt='menu icon' />
+      </Hamburger>
       <Logo />
-      <List>
+      <List menuToggled={menuToggled}>
         <ListItem>
           <NavLink to='/tech-stack'>Tech Stack</NavLink>
         </ListItem>
