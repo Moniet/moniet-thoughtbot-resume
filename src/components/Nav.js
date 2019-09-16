@@ -71,7 +71,7 @@ const ListItem = styled.li`
 `
 
 const Hamburger = styled.div`
-  width: 2em;
+  width: 1.25em;
   height: auto;
   align-self: center;
   display: block;
