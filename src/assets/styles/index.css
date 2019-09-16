@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: 'Calibre', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-kerning: normal;
@@ -19,18 +19,18 @@ body {
 }
 
 h1 {
-  font-size: 2.625em
+  font-size: 2.625em;
 }
 
 h2 {
-  font-size: 1.7em
+  font-size: 1.7em;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  font-size: 1rem
+  font-size: 1rem;
 }
 
 p {
@@ -40,7 +40,7 @@ p {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
@@ -50,4 +50,15 @@ a {
 
 .active {
   border-bottom: solid 2px lightgray;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+.fadeIn {
+  display: block;
+  opacity: 1;
+  transition: opacity 200ms;
 }

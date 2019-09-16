@@ -4,13 +4,32 @@
     "tags": ["MINIMALIST DESIGN", "RUBY ON RAILS REST API", "REACT FRONT END"],
     "description": "JOURNI IS A DIGITAL JOURNAL WHERE YOU CAN WRITE DOWN YOUR THOUGHTS",
     "link": "https://github.com/Moniet/journi-frontend",
-    "img": "./assets/case-studies/journi.png"
+    "img": "journi.png"
   },
   {
     "title": "TIMESTER",
-    "tags": ["MINIMALIST DESIGN", "RUBY ON RAILS REST API", "REACT FRONT END"],
+    "tags": ["ADOBE XD", "RUBY ON RAILS REST API", "REACT FRONT END"],
+    "description": "TIMESTER IS A TASK MANAGER THAT HELPS YOU GOAL ORIENT YOURSELF",
+    "link": "https://github.com/Moniet/timester_frontend",
+    "img": "timester.svg"
+  },
+  {
+    "title": "PALETTE PAL",
+    "tags": ["AFFINITY DESIGNER", "RUBY ON RAILS", "CSS GRIDS"],
     "description": "JOURNI IS A DIGITAL JOURNAL WHERE YOU CAN WRITE DOWN YOUR THOUGHTS",
     "link": "https://github.com/Moniet/journi-frontend",
-    "img": "./assets/case-studies/journi.png"
+    "img": "palette-pal.png"
+  },
+  {
+    "title": "POMODORO TIMER",
+    "tags": [
+      "AFFINITY DESIGNER",
+      "JAVASCRIPT",
+      "SVG ANIMATION",
+      "GRAPHIC DESIGN"
+    ],
+    "description": "A POMODORO CLOCK WITH A TO-DO LIST TO HELP TIMEBOX WORK SESSIONS",
+    "link": "https://github.com/Moniet/journi-frontend",
+    "img": "palette-pal.png"
   }
 ]
