@@ -49,6 +49,7 @@ const Info = styled.div`
 const Grid = styled.div`
   display: flex;
   flex-flow: row wrap;
+  margin-top: 3rem;
 `
 const GridItem = styled.div`
   position: relative;
@@ -67,6 +68,7 @@ const GridContent = styled.div`
     letter-spacing: 1px;
     color: ${props => props.headerColor};
   }
+
   ul {
     display: flex;
     flex-direction: column;
@@ -117,12 +119,6 @@ export default () => (
                   <span>Ruby</span>
                 </li>
                 <li>
-                  <span>SVG</span>
-                </li>
-                <li>
-                  <span>SQLite</span>
-                </li>
-                <li>
                   <span>HTML</span>
                 </li>
                 <li>
@@ -171,6 +167,9 @@ export default () => (
                 </li>
                 <li>
                   <span>GIMP</span>
+                </li>
+                <li>
+                  <span>VS Code</span>
                 </li>
               </ul>
             </GridContent>
