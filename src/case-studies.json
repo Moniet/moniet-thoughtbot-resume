@@ -16,7 +16,7 @@
   {
     "title": "PALETTE PAL",
     "tags": ["AFFINITY DESIGNER", "RUBY ON RAILS", "CSS GRIDS"],
-    "description": "JOURNI IS A DIGITAL JOURNAL WHERE YOU CAN WRITE DOWN YOUR THOUGHTS",
+    "description": "Palette Pal is a website where you can make, save, and share color palettes",
     "link": "https://github.com/Moniet/palette-project",
     "img": "palette-pal.png"
   },
@@ -28,7 +28,7 @@
       "SVG ANIMATION",
       "GRAPHIC DESIGN"
     ],
-    "description": "A POMODORO CLOCK WITH A TO-DO LIST TO HELP TIMEBOX WORK SESSIONS",
+    "description": "A Pomodoro Clock with a to-do list to help timebox anything work sessions",
     "link": "https://github.com/Moniet/pomodoro_clock",
     "img": "pomodoro-timer.png"
   }

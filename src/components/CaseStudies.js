@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/core'
-import React, { useEffect, useState, useRef } from 'react'
+import React from 'react'
 import styled from '@emotion/styled'
 import { colors } from '../utils/theme'
 import caseStudies from '../case-studies.json'
@@ -72,7 +72,7 @@ const List = styled.ul`
 `
 
 const ListItem = styled.li`
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 `
 
 const Link = styled.a`
@@ -90,13 +90,13 @@ const Link = styled.a`
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 0.75em;
+    margin-bottom: 1.5em;
     color: ${colors.text};
   }
 
   h2 {
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 2.133em;
     text-transform: capital;
   }
 
