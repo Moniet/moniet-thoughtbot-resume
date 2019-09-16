@@ -17,6 +17,7 @@ const Nav = styled.nav`
 
   ${maxW[2]} {
     background: white;
+    padding: 1.5rem;
   }
 `
 
@@ -35,17 +36,18 @@ const List = styled.ul`
     left: 0;
     width: 100%;
     background: white;
+    padding: 1.5rem 0 0;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
     transform: ${props =>
-      props.menuToggled ? 'translateY(50%)' : 'translateY(-100%)'};
+      props.menuToggled ? 'translateY(67px)' : 'translateY(-100%)'};
     opacity: ${props => (props.menuToggled ? 1 : 0)};
   }
 `
 
 const ListItem = styled.li`
-  margin-right: 1.5em;
+  margin-right: 1.5rem;
   ${maxW[2]} {
-    margin: 0 0 1.5em;
+    margin: 0 0 2.133rem;
   }
 
   &:last-of-type {
