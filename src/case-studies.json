@@ -1,0 +1,16 @@
+[
+  {
+    "title": "JOURNI",
+    "tags": ["MINIMALIST DESIGN", "RUBY ON RAILS REST API", "REACT FRONT END"],
+    "description": "JOURNI IS A DIGITAL JOURNAL WHERE YOU CAN WRITE DOWN YOUR THOUGHTS",
+    "link": "https://github.com/Moniet/journi-frontend",
+    "img": "./assets/case-studies/journi.png"
+  },
+  {
+    "title": "TIMESTER",
+    "tags": ["MINIMALIST DESIGN", "RUBY ON RAILS REST API", "REACT FRONT END"],
+    "description": "JOURNI IS A DIGITAL JOURNAL WHERE YOU CAN WRITE DOWN YOUR THOUGHTS",
+    "link": "https://github.com/Moniet/journi-frontend",
+    "img": "./assets/case-studies/journi.png"
+  }
+]

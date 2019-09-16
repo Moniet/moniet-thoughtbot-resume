@@ -1,10 +1,6 @@
-/** @jsx jsx */
 import React from 'react'
 import styled from '@emotion/styled'
-import { keyframes, jsx, css } from '@emotion/core'
 import { colors } from '../utils/theme'
-import Button from './Button'
-import { Link } from 'react-router-dom'
 
 const Container = styled.div`
   display: flex;
@@ -110,7 +106,10 @@ export default () => (
         <Grid>
           <GridItem>
             <Icon>
-              <img src={require('../assets/img/technology-icon.svg')} alt='' />
+              <img
+                src={require('../assets/img/icons/technology-icon.svg')}
+                alt=''
+              />
             </Icon>
             <GridContent headerColor='#177be3'>
               <h2>LANGUAGES</h2>
@@ -132,7 +131,10 @@ export default () => (
           </GridItem>
           <GridItem>
             <Icon>
-              <img src={require('../assets/img/frameworks-icon.svg')} alt='' />
+              <img
+                src={require('../assets/img/icons/frameworks-icon.svg')}
+                alt=''
+              />
             </Icon>
             <GridContent headerColor={colors.primary}>
               <h2>FRAMEWORKS</h2>
@@ -154,7 +156,7 @@ export default () => (
           </GridItem>
           <GridItem>
             <Icon>
-              <img src={require('../assets/img/ux-icon.svg')} alt='' />
+              <img src={require('../assets/img/icons/ux-icon.svg')} alt='' />
             </Icon>
             <GridContent headerColor='#ff931e'>
               <h2>SOFTWARE</h2>
