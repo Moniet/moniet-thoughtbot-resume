@@ -76,6 +76,15 @@ const ListItem = styled.li`
 `
 
 const Link = styled.a`
+  color: ${colors.text};
+
+  &:hover {
+    h4,
+    h2 {
+      color: red;
+    }
+  }
+
   h4 {
     font-size: 0.8rem;
     font-weight: 500;
@@ -85,9 +94,14 @@ const Link = styled.a`
     color: ${colors.text};
   }
 
+  h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: capital;
+  }
+
   span {
     color: #9b9aa1;
-  }
   }
 `
 
