@@ -4,14 +4,15 @@ import { maxW, minW } from '../utils/responsiveUtils'
 import { colors } from '../utils/theme'
 import { Link } from 'react-router-dom'
 
-const Container = styled.div``
-
 const SmallLogo = styled.div`
   display: none;
 
   ${maxW[2]} {
+    position: absolute;
     display: block;
-    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.3);
   }
 
   svg {

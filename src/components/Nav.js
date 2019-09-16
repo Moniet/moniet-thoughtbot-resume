@@ -25,7 +25,7 @@ const List = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 300ms ease-in-out, opacity 400ms ease-in-out;
+  transition: transform 300ms ease-in-out, opacity 50ms ease-in-out;
 
   ${maxW[2]} {
     position: absolute;
@@ -45,7 +45,7 @@ const List = styled.ul`
 const ListItem = styled.li`
   margin-right: 1.5em;
   ${maxW[2]} {
-    margin-bottom: 1.5em;
+    margin: 0 0 1.5em;
   }
 
   &:last-of-type {
