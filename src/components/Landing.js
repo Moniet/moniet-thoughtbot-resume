@@ -18,11 +18,21 @@ const Intro = styled.div`
   height: 100vh;
   width: 90vw;
 
+  ${maxW[1]} {
+    height: 90vh;
+  }
+
+  ${maxW[2]} {
+    height: 80vh;
+  }
+
   ${maxW[3]} {
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     margin-top: 2rem;
     max-width: 560px;
+    width: 100%;
     position: relative;
+    padding: 3rem;
     margin: 2rem auto;
     left: 0;
   }
@@ -74,6 +84,10 @@ const Artwork = styled.div`
 
   ${maxW[3]} {
     width: 100%;
+  }
+
+  ${maxW[2]} {
+    margin-top: 3rem;
   }
 `
 
