@@ -7,13 +7,6 @@
     "img": "journi.png"
   },
   {
-    "title": "TIMESTER",
-    "tags": ["ADOBE XD", "RUBY ON RAILS REST API", "REACT FRONT END"],
-    "description": "Timester is a task managing app that aiming to promote the goal oriented approach to managing tasks.",
-    "link": "https://github.com/Moniet/timester_frontend",
-    "img": "timester.png"
-  },
-  {
     "title": "PALETTE PAL",
     "tags": ["AFFINITY DESIGNER", "RUBY ON RAILS", "CSS GRIDS"],
     "description": "Palette Pal is a website where you can make, save, and share color palettes",
@@ -31,5 +24,19 @@
     "description": "A Pomodoro timer with a to-do list to help timebox all your work sessions",
     "link": "https://github.com/Moniet/pomodoro_clock",
     "img": "pomodoro-timer.png"
+  },
+  {
+    "title": "Monzgesagt",
+    "tags": ["CSS ANIMATIONS", "CSS ILLUSTRATION", "CREATIVE CODING"],
+    "description": "This project recreates youtube channel Kurzgesagt's animation with CSS",
+    "link": "https://codepen.io/moniet/pen/YoPprB?editors=0010",
+    "img": "kurzgesagt.png"
+  },
+  {
+    "title": "Fylo Dark",
+    "tags": ["CSS IN JS", "REACT", "EMOTION JS"],
+    "description": "Fylo dark is a front end code challenge completed with React and css in js framework emotion.js ",
+    "link": "https://codepen.io/moniet/pen/YoPprB?editors=0010",
+    "img": "fylo-dark.png"
   }
 ]

@@ -30,15 +30,14 @@ const List = styled.ul`
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 0;
+    top: 68px;
     left: 0;
     width: 100%;
     background: white;
     padding: 1.5rem 0 0;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
-    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
-    transform: ${props =>
-      props.menuToggled ? 'translateY(67px)' : 'translateY(-100%)'};
+    transition: opacity 300ms ease-in-out;
+    opacity: ${props => (props.menuToggled ? 1 : 0)};
   }
 `
 

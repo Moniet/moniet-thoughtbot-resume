@@ -136,7 +136,8 @@ export default () => (
           </p>
           <p>
             Having a background in music, I am enabled as a creative thinker and
-            have an immense passion when it comes to the world of design.
+            have an immense passion when it comes to combing the worlds of
+            design and development.
           </p>
           <Button>
             <Link to='/case-studies'>See what I've Made</Link>

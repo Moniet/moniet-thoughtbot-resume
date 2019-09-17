@@ -136,6 +136,9 @@ export default () => (
                   <span>HTML</span>
                 </li>
                 <li>
+                  <span>SVG</span>
+                </li>
+                <li>
                   <span>CSS & SCSS</span>
                 </li>
                 <li>
@@ -177,16 +180,16 @@ export default () => (
               <h2>SOFTWARE</h2>
               <ul>
                 <li>
-                  <span>Affinity Designer</span>
-                </li>
-                <li>
-                  <span>Adobe XD</span>
+                  <span>Trello</span>
                 </li>
                 <li>
                   <span>GIMP</span>
                 </li>
                 <li>
-                  <span>VS Code</span>
+                  <span>Adobe XD</span>
+                </li>
+                <li>
+                  <span>Affinity Designer</span>
                 </li>
               </ul>
             </GridContent>

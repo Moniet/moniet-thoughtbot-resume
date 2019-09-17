@@ -57,7 +57,7 @@ const Projects = styled.div`
   ${maxW[3]} {
     max-width: 600px;
     width: 100%;
-    margin: 10rem auto;
+    margin: 6rem auto;
   }
 `
 
