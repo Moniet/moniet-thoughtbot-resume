@@ -8,7 +8,12 @@
   },
   {
     "title": "PALETTE PAL",
-    "tags": ["AFFINITY DESIGNER", "RUBY ON RAILS", "CSS GRIDS"],
+    "tags": [
+      "AFFINITY DESIGNER",
+      "RUBY ON RAILS",
+      "CSS GRIDS",
+      "PAIR PROGRAMMING"
+    ],
     "description": "Palette Pal is a website where you can make, save, and share color palettes",
     "link": "https://github.com/Moniet/palette-project",
     "img": "palette-pal.png"
@@ -36,7 +41,7 @@
     "title": "Fylo Dark",
     "tags": ["CSS IN JS", "REACT", "EMOTION JS"],
     "description": "Fylo dark is a front end code challenge completed with React and css in js framework emotion.js ",
-    "link": "https://codepen.io/moniet/pen/YoPprB?editors=0010",
+    "link": "https://github.com/Moniet/fylo-dark",
     "img": "fylo-dark.png"
   }
 ]

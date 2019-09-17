@@ -148,10 +148,9 @@ export default () => {
           <Header>
             <h1>Case Studies</h1>
             <p>
-              I am mostly self taught, however, recently I have graduated from a
-              coding bootcamp. These projects represent work I have taken on for
-              experience, for practice, and as a part of group projects during
-              the bootcamp.
+              The following is a collection of self driven projects, a few of
+              which were completed with pair programming while attending
+              Flatiron School in London.
             </p>
           </Header>
           <List>

@@ -111,11 +111,13 @@ export default () => (
     </ImgContainer>
     <Stack>
       <Info>
-        <h1>Technologies I love to use.</h1>
+        <h1>Technologies I love using.</h1>
         <p>
-          I love building applications through lense of design and often use
-          software to helps visualize problems. Using a combination of sketching
-          and software helps me gain new perspectives about the task at hand.
+          My process of building applications often starts with developing
+          wireframes based on user stories. This allows me to think of user
+          experience and visualise relationships between the various components.
+          I believe that design is not only how something looks, but also how it
+          works.
         </p>
 
         <Grid>
