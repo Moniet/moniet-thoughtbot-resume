@@ -4,6 +4,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { colors } from '../utils/theme'
 import caseStudies from '../case-studies.json'
+import { maxW, minW } from '../utils/responsiveUtils'
 
 const Container = styled.div`
   display: flex;
@@ -14,10 +15,15 @@ const Container = styled.div`
 `
 const Display = styled.div`
   position: sticky;
+  display: block;
   top: 0;
   left: 0;
   flex-basis: 40vw;
   height: 100vh;
+
+  ${maxW[3]} {
+    display: none;
+  }
 `
 const DefaultImg = styled.img`
   position: absolute;
@@ -47,6 +53,12 @@ const Projects = styled.div`
   width: 60vw;
   padding: 1.5rem;
   margin-top: 12rem;
+
+  ${maxW[3]} {
+    max-width: 600px;
+    width: 100%;
+    margin: 10rem auto;
+  }
 `
 
 const Content = styled.div`

@@ -39,7 +39,6 @@ const List = styled.ul`
     transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
     transform: ${props =>
       props.menuToggled ? 'translateY(67px)' : 'translateY(-100%)'};
-    opacity: ${props => (props.menuToggled ? 1 : 0)};
   }
 `
 

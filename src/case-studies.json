@@ -28,7 +28,7 @@
       "SVG ANIMATION",
       "GRAPHIC DESIGN"
     ],
-    "description": "A Pomodoro Clock with a to-do list to help timebox anything work sessions",
+    "description": "A Pomodoro timer with a to-do list to help timebox all your work sessions",
     "link": "https://github.com/Moniet/pomodoro_clock",
     "img": "pomodoro-timer.png"
   }
