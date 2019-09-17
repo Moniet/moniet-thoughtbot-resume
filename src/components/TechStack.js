@@ -5,13 +5,17 @@ import { maxW } from '../utils/responsiveUtils'
 
 const Container = styled.div`
   display: flex;
-  position: absolute;
+  position: relative;
   width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
   align-items: center;
   flex-wrap: wrap;
+
+  ${maxW[3]} {
+    height: 100%;
+  }
 `
 const ImgContainer = styled.div`
   display: block;
@@ -29,7 +33,8 @@ const ImgContainer = styled.div`
   }
 
   ${maxW[3]} {
-    width: 100%;
+    width: 100vw;
+    height: 30vh;
   }
 `
 const Stack = styled.div`

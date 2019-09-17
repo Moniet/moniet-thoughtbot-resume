@@ -10,6 +10,8 @@ import Footer from './components/Footer'
 
 const Main = styled.main`
   display: block;
+  min-height: 100vh;
+  max-height: 100%;
 `
 
 function App() {
