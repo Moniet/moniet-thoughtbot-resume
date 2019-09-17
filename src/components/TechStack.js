@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { colors } from '../utils/theme'
+import { maxW } from '../utils/responsiveUtils'
 
 const Container = styled.div`
   display: flex;
@@ -10,6 +11,7 @@ const Container = styled.div`
   top: 0;
   left: 0;
   align-items: center;
+  flex-wrap: wrap;
 `
 const ImgContainer = styled.div`
   display: block;
@@ -25,6 +27,10 @@ const ImgContainer = styled.div`
     height: 100%;
     object-fit: cover;
   }
+
+  ${maxW[3]} {
+    width: 100%;
+  }
 `
 const Stack = styled.div`
   flex-grow: 1;
@@ -36,6 +42,11 @@ const Stack = styled.div`
     margin-bottom: 1.5rem;
     color: ${colors.primary};
   }
+
+  ${maxW[3]} {
+    padding: 2rem;
+    width: 100%;
+  }
 `
 
 const Info = styled.div`
@@ -46,6 +57,10 @@ const Grid = styled.div`
   display: flex;
   flex-flow: row wrap;
   margin-top: 3rem;
+
+  ${maxW[1]} {
+    flex-flow: column wrap;
+  }
 `
 const GridItem = styled.div`
   position: relative;

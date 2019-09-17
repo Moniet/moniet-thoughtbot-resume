@@ -5,6 +5,7 @@ import { keyframes, jsx } from '@emotion/core'
 import { colors } from '../utils/theme'
 import Button from './Button'
 import { Link } from 'react-router-dom'
+import { maxW, minW } from '../utils/responsiveUtils'
 
 const Intro = styled.div`
   position: absolute;
@@ -16,11 +17,24 @@ const Intro = styled.div`
   margin: 0 auto;
   height: 100vh;
   width: 90vw;
+
+  ${maxW[3]} {
+    flex-flow: column wrap;
+    margin-top: 2rem;
+    max-width: 560px;
+    position: relative;
+    margin: 2rem auto;
+    left: 0;
+  }
 `
 
 const Greeting = styled.div`
   display: block;
-  flex-basis: 40vw;
+  width: 40%;
+
+  ${maxW[3]} {
+    min-width: 100%;
+  }
 
   h1 {
     font-weight: 500;
@@ -57,6 +71,10 @@ const Artwork = styled.div`
   justify-content: center;
   align-items: flex-end;
   width: 50vw;
+
+  ${maxW[3]} {
+    width: 100%;
+  }
 `
 
 const Planet = styled.img`
@@ -64,11 +82,11 @@ const Planet = styled.img`
   height: auto;
   z-index: 50;
   animation: ${planetFloat} 3s ease-in-out 0.7s infinite;
-`
 
-// const Moon = styled.img`
-//   z-index: 25;
-// `
+  ${maxW[3]} {
+    width: 40%;
+  }
+`
 
 const Astronaut = styled.img`
   width: 50%;
@@ -76,10 +94,13 @@ const Astronaut = styled.img`
   z-index: 100;
   animation: ${astroFloat} 3s ease-in-out infinite;
   opacity: 0.75;
+  ${maxW[3]} {
+    width: 65%;
+  }
 `
 
 const stackColors = color => {
-  // for the stack i use (ruby & react)
+  // coloring relevant technologies for the stack i use (Rails & React)
   return {
     color: color,
     fontStyle: 'italic',
@@ -104,7 +125,7 @@ export default () => (
             have an immense passion when it comes to the world of design.
           </p>
           <Button>
-            <Link href='/case-studies'>See what I've Made</Link>
+            <Link to='/case-studies'>See what I've Made</Link>
           </Button>
         </Greeting>
         <Artwork>

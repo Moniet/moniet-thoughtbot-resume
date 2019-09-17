@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import styled from '@emotion/styled'
 import { colors } from '../utils/theme'
+import { maxW } from '../utils/responsiveUtils'
 
 const Button = styled.div`
   display: inline-flex;
@@ -20,6 +21,10 @@ const Button = styled.div`
   user-select: none;
   vertical-align: middle;
   -webkit-font-smoothing: antialiased;
+
+  ${maxW[1]} {
+    width: 100%;
+  }
 
   a {
     color: #fff;

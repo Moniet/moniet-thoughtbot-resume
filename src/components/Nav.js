@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import styled from '@emotion/styled'
-import { ClassNames } from '@emotion/core'
 import { colors } from '../utils/theme'
-import { Router, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Logo from './Logo'
 import Button from './Button'
 import { minW, maxW } from '../utils/responsiveUtils'
@@ -26,7 +25,6 @@ const List = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 300ms ease-in-out, opacity 50ms ease-in-out;
 
   ${maxW[2]} {
     position: absolute;
@@ -38,6 +36,7 @@ const List = styled.ul`
     background: white;
     padding: 1.5rem 0 0;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
+    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
     transform: ${props =>
       props.menuToggled ? 'translateY(67px)' : 'translateY(-100%)'};
     opacity: ${props => (props.menuToggled ? 1 : 0)};
