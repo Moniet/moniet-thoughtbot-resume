@@ -32,7 +32,7 @@ const Intro = styled.div`
     max-width: 560px;
     width: 100%;
     position: relative;
-    padding: 3rem;
+    padding: 2rem;
     margin: 2rem auto;
     left: 0;
   }
