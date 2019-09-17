@@ -6,16 +6,22 @@ import Nav from './components/Nav'
 import Landing from './components/Landing'
 import TechStack from './components/TechStack'
 import CaseStudies from './components/CaseStudies'
+import Footer from './components/Footer'
+
+const Main = styled.main`
+  display: block;
+`
 
 function App() {
   return (
     <BrowserRouter>
-      <main>
-        <Nav />
+      <Nav />
+      <Main>
         <Route exact path='/' component={Landing} />
         <Route exact path='/tech-stack' component={TechStack} />
         <Route exact path='/case-studies' component={CaseStudies} />
-      </main>
+      </Main>
+      <Footer />
     </BrowserRouter>
   )
 }

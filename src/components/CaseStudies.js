@@ -8,7 +8,7 @@ import { maxW, minW } from '../utils/responsiveUtils'
 
 const Container = styled.div`
   display: flex;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100vw;
@@ -52,7 +52,7 @@ const Projects = styled.div`
   align-items: center;
   width: 60vw;
   padding: 1.5rem;
-  margin-top: 12rem;
+  margin-top: 8rem;
 
   ${maxW[3]} {
     max-width: 600px;

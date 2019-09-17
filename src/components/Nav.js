@@ -25,6 +25,7 @@ const List = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
+  background: white;
 
   ${maxW[2]} {
     position: absolute;
@@ -33,7 +34,6 @@ const List = styled.ul`
     top: 68px;
     left: 0;
     width: 100%;
-    background: white;
     padding: 1.5rem 0 0;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
     transition: opacity 300ms ease-in-out;
