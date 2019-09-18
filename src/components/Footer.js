@@ -1,6 +1,7 @@
 import React from 'react'
 import { colors } from '../utils/theme'
 import styled from '@emotion/styled'
+import { maxW } from '../utils/responsiveUtils'
 
 const Footer = styled.footer`
   position: relative;
@@ -8,10 +9,18 @@ const Footer = styled.footer`
   width: 100vw;
   padding: 3rem;
   background: ${colors.footerBg};
+
+  ${maxW[1]} {
+    padding: 2rem;
+  }
 `
 const List = styled.ul`
   display: flex;
   justify-content: space-around;
+
+  ${maxW[1]} {
+    justify-content: space-between;
+  }
 `
 const ListItem = styled.li`
   a {
@@ -19,6 +28,10 @@ const ListItem = styled.li`
     font-weight: bold;
     color: ${colors.footerText};
     letter-spacing: 2px;
+
+    ${maxW[1]} {
+      font-size: 1em;
+    }
     &:hover {
       color: ${colors.primary};
     }
