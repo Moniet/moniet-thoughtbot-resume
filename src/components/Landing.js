@@ -15,16 +15,8 @@ const Intro = styled.div`
   top: 0;
   left: 5vw;
   margin: 0 auto;
-  height: 100vh;
+  height: 100%;
   width: 90vw;
-
-  ${maxW[1]} {
-    height: 90vh;
-  }
-
-  ${maxW[2]} {
-    height: 80vh;
-  }
 
   ${maxW[3]} {
     flex-flow: column nowrap;
