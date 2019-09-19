@@ -119,7 +119,7 @@ export default () => (
     <section>
       <Intro>
         <Greeting>
-          <h1>Hi There, I'm Moniet, a Full Stack Developer.</h1>
+          <h1>Hi There! I'm Moniet, a Full Stack Developer.</h1>
           <p>
             I build applications super quick with the power of
             <span css={stackColors(colors.primary)}> Ruby on Rails </span> and
